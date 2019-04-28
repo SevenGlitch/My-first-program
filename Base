@@ -1,0 +1,47 @@
+#-------Startup Variables-------
+sum1 = 0
+#-------------------------------
+
+#--------Launch Screen Text--------
+print ("This is a simple calculator)
+
+numb1 = input ("Give your first number: ")
+numb2 = input ("Give your second number: ")
+
+print
+
+print "Give the number that is corresponding to the symble that you want to use"
+print "1.+"
+print "2.-"
+print "3.*"
+print "4./"
+
+print
+#----------------------------------
+
+#-------User Input-------
+symb = input("Give a number: )
+
+if symb == 1:
+    sum1 = numb1+numb2
+
+elif symb == 2:
+    sum1 = numb1-numb2
+
+elif symb == 3:
+    sum1 = numb1*numb2
+
+elif symb == 4:
+    sum1 = numb1/numb2
+#------------------------
+
+#-------Output-------
+print "Total: ",sum1
+#--------------------
+
+
+
+
+
+
+
